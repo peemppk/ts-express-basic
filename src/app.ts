@@ -56,7 +56,7 @@ app.use((req: Request, res: Response, next: NextFunction) => {
 const jwtModel = new JwtModel();
 
 const auth = async (req: Request, res: Response, next: NextFunction) => {
-  var token: string = null;
+  var token: any = null;
 
   if (req.headers.authorization && req.headers.authorization.split(' ')[0] === 'Bearer') {
     token = req.headers.authorization.split(' ')[1];
