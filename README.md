@@ -2,7 +2,7 @@
 
 ## Installation
 
-Node.js version 8.x or latest
+Node.js version 10.x or latest
 
 ```
 npm i typescript -g
@@ -11,7 +11,7 @@ npm i pm2 -g
 ```
 
 ```
-git clone https://github.com/siteslave/ts-express-basic myApi
+git clone https://github.com/peemppk/ts-express-basic myApi
 cd myApi
 npm i
 ```
